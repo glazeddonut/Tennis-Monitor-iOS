@@ -1,6 +1,5 @@
 import Foundation
-import Models
-import Networking
+import SwiftUI
 
 @MainActor
 class SettingsViewModel: ObservableObject {

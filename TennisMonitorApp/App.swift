@@ -1,21 +1,17 @@
 import SwiftUI
-import Models
-import Networking
-import Views
 
 @main
 struct TennisMonitorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .preferredColorScheme(nil) // Allow system light/dark mode
+                .preferredColorScheme(nil)
         }
     }
 }
 
 struct ContentView: View {
     @State private var selectedTab: Tab = .home
-    @State private var isFirstLaunch = true
     
     enum Tab: Hashable {
         case home
@@ -44,7 +40,6 @@ struct ContentView: View {
                 .tag(Tab.logs)
         }
         .onAppear {
-            // Configure API client on app launch
             let apiKey = UserDefaults.standard.string(forKey: "apiKey") ?? ""
             let baseURL = UserDefaults.standard.string(forKey: "baseURL") ?? ""
             

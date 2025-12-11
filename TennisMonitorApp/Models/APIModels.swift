@@ -94,3 +94,34 @@ public struct MonitorConfig {
         self.aliveCheckHour = response.alive_check_hour
     }
 }
+
+// MARK: - Error Handling
+
+enum APIError: LocalizedError {
+    case invalidURL
+    case invalidResponse
+    case decodingError(String)
+    case networkError(String)
+    case authenticationError
+    case serverError(Int)
+    case unknownError
+    
+    var errorDescription: String? {
+        switch self {
+        case .invalidURL:
+            return "Invalid URL"
+        case .invalidResponse:
+            return "Invalid server response"
+        case .decodingError(let message):
+            return "Failed to parse response: \(message)"
+        case .networkError(let message):
+            return "Network error: \(message)"
+        case .authenticationError:
+            return "Authentication failed - Invalid API key"
+        case .serverError(let code):
+            return "Server error: HTTP \(code)"
+        case .unknownError:
+            return "Unknown error occurred"
+        }
+    }
+}

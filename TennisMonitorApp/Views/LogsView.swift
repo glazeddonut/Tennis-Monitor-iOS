@@ -1,5 +1,4 @@
 import SwiftUI
-import Models
 
 struct LogsView: View {
     @StateObject private var viewModel = LogsViewModel()
