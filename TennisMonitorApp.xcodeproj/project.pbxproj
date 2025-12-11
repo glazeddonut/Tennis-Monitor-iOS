@@ -6,36 +6,37 @@
 	objectVersion = 56;
 	objects = {
 /* Begin PBXBuildFile section */
-		4B1234561D2E0001000A1B2C /* TennisMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1234551D2E0001000A1B2C /* TennisMonitorApp.swift */; };
-		4B1234581D2E0002000A1B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1234571D2E0002000A1B2C /* Assets.xcassets */; };
-		4B123456A2E0002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B123456A2E0002 /* Preview Assets.xcassets */; };
-		4B12345A1D2E000A /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12345A1D2E000A /* APIModels.swift */; };
-		4B12345B1D2E000B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12345B1D2E000B /* APIClient.swift */; };
-		4B12345C1D2E000C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12345C1D2E000C /* HomeView.swift */; };
-		4B12345D1D2E000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12345D1D2E000D /* SettingsView.swift */; };
-		4B12345E1D2E000E /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12345E1D2E000E /* LogsView.swift */; };
-		4B12345F1D2E000F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12345F1D2E000F /* HomeViewModel.swift */; };
-		4B1234601D2E0010 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1234601D2E0010 /* SettingsViewModel.swift */; };
-		4B1234611D2E0011 /* LogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1234611D2E0011 /* LogsViewModel.swift */; };
+		A1B2C3D4 /* TennisMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D5 /* TennisMonitorApp.swift */; };
+		A1B2C3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D7 /* Assets.xcassets */; };
+		A1B2C3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D9 /* Preview Assets.xcassets */; };
+		A1B2C3DA /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3DB /* APIModels.swift */; };
+		A1B2C3DC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3DD /* APIClient.swift */; };
+		A1B2C3DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3DF /* HomeView.swift */; };
+		A1B2C3E0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E1 /* SettingsView.swift */; };
+		A1B2C3E2 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E3 /* LogsView.swift */; };
+		A1B2C3E4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E5 /* HomeViewModel.swift */; };
+		A1B2C3E6 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E7 /* SettingsViewModel.swift */; };
+		A1B2C3E8 /* LogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E9 /* LogsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B1234501D2E0001000A1B2C /* TennisMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B1234551D2E0001000A1B2C /* TennisMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisMonitorApp.swift; sourceTree = "<group>"; };
-		4B1234571D2E0002000A1B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B123456A2E0002 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4B12345A1D2E000A /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
-		4B12345B1D2E000B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		4B12345C1D2E000C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		4B12345D1D2E000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		4B12345E1D2E000E /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
-		4B12345F1D2E000F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		4B1234601D2E0010 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
-		4B1234611D2E0011 /* LogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3A1 /* TennisMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D5 /* TennisMonitorApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TennisMonitorApp.swift; sourceTree = "<group>"; };
+		A1B2C3D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B2C3DB /* APIModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		A1B2C3DD /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A1B2C3DF /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1B2C3E1 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1B2C3E3 /* LogsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		A1B2C3E5 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3E7 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3E9 /* LogsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B12344D1D2E0001000A1B2C /* Frameworks */ = {
+		A1B2C3A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +46,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B1234421D2E0001000A1B2C = {
+		A1B2C3A3 = {
 			isa = PBXGroup;
 			children = (
-				4B1234541D2E0001000A1B2C /* TennisMonitorApp */,
-				4B1234511D2E0001000A1B2C /* Products */,
+				A1B2C3A4 /* TennisMonitorApp */,
+				A1B2C3A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4B1234511D2E0001000A1B2C /* Products */ = {
+		A1B2C3A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B1234501D2E0001000A1B2C /* TennisMonitorApp.app */,
+				A1B2C3A1 /* TennisMonitorApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B1234541D2E0001000A1B2C /* TennisMonitorApp */ = {
+		A1B2C3A4 /* TennisMonitorApp */ = {
 			isa = PBXGroup;
 			children = (
-				4B1234551D2E0001000A1B2C /* TennisMonitorApp.swift */,
-				4B1234701D2E0008000A1B2C /* Models */,
-				4B1234711D2E0009000A1B2C /* Networking */,
-				4B1234721D2E000A000A1B2C /* Views */,
-				4B1234731D2E0090000A1B2C /* ViewModels */,
-				4B1234571D2E0002000A1B2C /* Assets.xcassets */,
-				4B1234591D2E0002000A1B2C /* Preview Content */,
+				A1B2C3D5 /* TennisMonitorApp.swift */,
+				A1B2C3EB /* Models */,
+				A1B2C3EC /* Networking */,
+				A1B2C3ED /* Views */,
+				A1B2C3EE /* ViewModels */,
+				A1B2C3D7 /* Assets.xcassets */,
+				A1B2C3EF /* Preview Content */,
+				A1B2C3EA /* Info.plist */,
 			);
 			path = TennisMonitorApp;
 			sourceTree = "<group>";
 		};
-		4B1234591D2E0002000A1B2C /* Preview Content */ = {
+		A1B2C3EF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4B123456A2E0002 /* Preview Assets.xcassets */,
+				A1B2C3D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4B1234701D2E0008000A1B2C /* Models */ = {
+		A1B2C3EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4B12345A1D2E000A /* APIModels.swift */,
+				A1B2C3DB /* APIModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		4B1234711D2E0009000A1B2C /* Networking */ = {
+		A1B2C3EC /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				4B12345B1D2E000B /* APIClient.swift */,
+				A1B2C3DD /* APIClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		4B1234721D2E000A000A1B2C /* Views */ = {
+		A1B2C3ED /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4B12345C1D2E000C /* HomeView.swift */,
-				4B12345D1D2E000D /* SettingsView.swift */,
-				4B12345E1D2E000E /* LogsView.swift */,
+				A1B2C3DF /* HomeView.swift */,
+				A1B2C3E1 /* SettingsView.swift */,
+				A1B2C3E3 /* LogsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		4B1234731D2E0090000A1B2C /* ViewModels */ = {
+		A1B2C3EE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				4B12345F1D2E000F /* HomeViewModel.swift */,
-				4B1234601D2E0010 /* SettingsViewModel.swift */,
-				4B1234611D2E0011 /* LogsViewModel.swift */,
+				A1B2C3E5 /* HomeViewModel.swift */,
+				A1B2C3E7 /* SettingsViewModel.swift */,
+				A1B2C3E9 /* LogsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -122,13 +124,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B12344F1D2E0001000A1B2C /* TennisMonitorApp */ = {
+		A1B2C3A6 /* TennisMonitorApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B1234681D2E000B000A1B2C /* Build configuration list for PBXNativeTarget "TennisMonitorApp" */;
+			buildConfigurationList = A1B2C3B1 /* Build configuration list for PBXNativeTarget "TennisMonitorApp" */;
 			buildPhases = (
-				4B12344C1D2E0001000A1B2C /* Sources */,
-				4B12344D1D2E0001000A1B2C /* Frameworks */,
-				4B12344E1D2E0001000A1B2C /* Resources */,
+				A1B2C3A7 /* Sources */,
+				A1B2C3A2 /* Frameworks */,
+				A1B2C3A8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,25 +138,25 @@
 			);
 			name = TennisMonitorApp;
 			productName = TennisMonitorApp;
-			productReference = 4B1234501D2E0001000A1B2C /* TennisMonitorApp.app */;
+			productReference = A1B2C3A1 /* TennisMonitorApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B1234431D2E0001000A1B2C /* Project object */ = {
+		A1B2C3A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					4B12344F1D2E0001000A1B2C = {
+					A1B2C3A6 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 4B1234461D2E0001000A1B2C /* Build configuration list for PBXProject "TennisMonitorApp" */;
+			buildConfigurationList = A1B2C3AA /* Build configuration list for PBXProject "TennisMonitorApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,49 +164,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 4B1234421D2E0001000A1B2C;
-			productRefGroup = 4B1234511D2E0001000A1B2C /* Products */;
+			mainGroup = A1B2C3A3;
+			productRefGroup = A1B2C3A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B12344F1D2E0001000A1B2C /* TennisMonitorApp */,
+				A1B2C3A6 /* TennisMonitorApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B12344E1D2E0001000A1B2C /* Resources */ = {
+		A1B2C3A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B123456A2E0002 /* Preview Assets.xcassets in Resources */,
-				4B1234581D2E0002000A1B2C /* Assets.xcassets in Resources */,
+				A1B2C3D8 /* Preview Assets.xcassets in Resources */,
+				A1B2C3D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B12344C1D2E0001000A1B2C /* Sources */ = {
+		A1B2C3A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B12345A1D2E000A /* APIModels.swift in Sources */,
-				4B12345B1D2E000B /* APIClient.swift in Sources */,
-				4B12345C1D2E000C /* HomeView.swift in Sources */,
-				4B12345D1D2E000D /* SettingsView.swift in Sources */,
-				4B12345E1D2E000E /* LogsView.swift in Sources */,
-				4B12345F1D2E000F /* HomeViewModel.swift in Sources */,
-				4B1234601D2E0010 /* SettingsViewModel.swift in Sources */,
-				4B1234611D2E0011 /* LogsViewModel.swift in Sources */,
-				4B1234561D2E0001000A1B2C /* TennisMonitorApp.swift in Sources */,
+				A1B2C3DA /* APIModels.swift in Sources */,
+				A1B2C3DC /* APIClient.swift in Sources */,
+				A1B2C3DE /* HomeView.swift in Sources */,
+				A1B2C3E0 /* SettingsView.swift in Sources */,
+				A1B2C3E2 /* LogsView.swift in Sources */,
+				A1B2C3E4 /* HomeViewModel.swift in Sources */,
+				A1B2C3E6 /* SettingsViewModel.swift in Sources */,
+				A1B2C3E8 /* LogsViewModel.swift in Sources */,
+				A1B2C3D4 /* TennisMonitorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4B1234641D2E000B000A1B2C /* Debug */ = {
+		A1B2C3AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		4B1234651D2E000B000A1B2C /* Release */ = {
+		A1B2C3AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,14 +326,14 @@
 			};
 			name = Release;
 		};
-		4B1234661D2E000B000A1B2C /* Debug */ = {
+		A1B2C3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = TennisMonitorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -351,14 +353,14 @@
 			};
 			name = Debug;
 		};
-		4B1234671D2E000B000A1B2C /* Release */ = {
+		A1B2C3AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = TennisMonitorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -381,25 +383,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B1234461D2E0001000A1B2C /* Build configuration list for PBXProject "TennisMonitorApp" */ = {
+		A1B2C3AA /* Build configuration list for PBXProject "TennisMonitorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B1234641D2E000B000A1B2C /* Debug */,
-				4B1234651D2E000B000A1B2C /* Release */,
+				A1B2C3AB /* Debug */,
+				A1B2C3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B1234681D2E000B000A1B2C /* Build configuration list for PBXNativeTarget "TennisMonitorApp" */ = {
+		A1B2C3B1 /* Build configuration list for PBXNativeTarget "TennisMonitorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B1234661D2E000B000A1B2C /* Debug */,
-				4B1234671D2E000B000A1B2C /* Release */,
+				A1B2C3AD /* Debug */,
+				A1B2C3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4B1234431D2E0001000A1B2C /* Project object */;
+	rootObject = A1B2C3A9 /* Project object */;
 }
